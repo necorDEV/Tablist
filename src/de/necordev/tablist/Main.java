@@ -26,7 +26,7 @@ public class Main extends JavaPlugin implements Listener {
 	 @EventHandler
 	 public void onJoin(PlayerJoinEvent e) {
 		 sendTablistHeaderAndFooter(e.getPlayer(),
-				 "ง6Herzlich Willkommen!", "ง6Das ist der Test-Server von necorDEV!");
+				 "ยง6YOUR HEADER TEXT", "ยง6YOUR FOOTER TEXT");
 	 }
 	
 	public void sendTablistHeaderAndFooter(Player p, String header, String footer) {
